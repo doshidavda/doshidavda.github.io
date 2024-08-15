@@ -780,12 +780,14 @@ section,
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  box-shadow: 0px 0 30px 0 color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 50px 30px;
+  /* box-shadow: 0px 0 30px 0 color-mix(in srgb, var(--default-color), transparent 90%); */
+  box-shadow: 4px 3px 5px 3px rgba(224,224,224,1);
+  padding: 20px 20px 20px 20px;
   transition: all ease-in-out 0.4s;
   height: 100%;
   overflow: hidden;
   z-index: 1;
+  border-radius: 3%;
 }
 
 .services .service-item:before {
